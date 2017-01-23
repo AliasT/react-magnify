@@ -1,0 +1,34 @@
+.react-magnify {
+  width: 400px;
+}
+
+
+
+.base-view {
+  border: solid 1px #ccc;
+  position: relative;
+
+  .slider {
+    position: absolute;
+    background: #eee;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.thumb-container {
+  ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+    }
+  }
+}
