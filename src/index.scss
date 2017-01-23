@@ -1,8 +1,20 @@
 .react-magnify {
   width: 400px;
+  height: 400px;
+  position: relative;
 }
 
-
+.magnify-view {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: solid 1px transparent;
+  overflow: hidden;
+  left: 420px;
+  img {
+    position: absolute;
+  }
+}
 
 .base-view {
   border: solid 1px #ccc;
@@ -17,6 +29,7 @@
 
   img {
     width: 100%;
+    height: 100%;
   }
 }
 
